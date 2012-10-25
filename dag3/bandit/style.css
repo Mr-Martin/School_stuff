@@ -1,0 +1,15 @@
+body {font-family: verdana;}
+
+#wrapper {
+	width: 262px;
+	height: 320px;
+	margin: 200px auto;
+	}
+
+#wrapper img{
+	margin-left: 20px;
+	}
+
+#wrapper input {
+	width: 262px;
+	}

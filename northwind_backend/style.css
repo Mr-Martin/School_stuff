@@ -1,0 +1,115 @@
+body {
+	background: url(images/wood-bg.jpg);
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Sans-Serif;
+	overflow-y: scroll;
+}
+#wrapper {
+	width: 1023px;
+	margin: 80px auto;
+	background: #fff url(images/leftcol.png) repeat-y;
+	border: 10px solid #000;
+	box-shadow: 0px 2px 10px #333;
+}
+#header {
+	text-align: center;
+	line-height: 100px;
+	background: #ffb700;
+	border-bottom: 10px solid #000;
+}
+#header h1 {
+	margin: 0;
+	padding: 0;
+	text-shadow: 0 1px 1px #fff;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	float: left;
+	border-bottom: 1px solid #000;
+}
+li a {
+	line-height: 40px;
+	width: 230px;
+	display: block;
+	background: #ffd27a;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+}
+li a:hover {
+	background: #ffb700;
+}
+#content {
+	margin-left: 260px;
+	margin-right: 30px;
+}
+#sidebar {
+	width: 230px;
+	float: left;
+}
+#sidebar img {
+	border: 5px solid #fff;
+	background: #fff;
+	box-shadow: 0 4px 4px #333;
+	margin: 20px 40px;
+}
+#footer {
+	background: #ffb700;
+	border-top: 10px solid #000;
+	line-height: 40px;
+	text-align: center;
+	font-size: small;
+	clear: left;
+}
+.right-img {
+	border: 10px solid #fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 8px #333;
+	float: right;
+	margin: 0 20px 20px;
+}
+.box { border: 3px dashed #ccc;
+	border-radius: 10px;
+	margin: 10px 5px 40px 5px;
+	width: 700px;
+	padding-top: 20px;
+	 }
+	 
+	input{text-indent: 8px; width: 540px; height: 35px; margin-top: 5px; border-radius: 6px; border: 1px solid #ccc; display: block;}
+	select{margin-left: 140px; text-indent: 8px; width: 540px; height: 35px; margin-top: 5px; border-radius: 6px; border: 1px solid #ccc; display: block;}
+	select:focus{outline: none; background: #f4f4f4; }
+	input:focus{outline: none; background: #f4f4f4; }
+	label{display: block; width: 120px; clear: right; float: left; margin-top: 15px; margin-left: 20px;}
+	fieldset {border-radius: 10px;}
+	#submit {cursor: pointer; height: 35px; width: 540px; margin-left: 140px; margin-bottom: 20px; margin-top: 5px;}
+	#submit:hover {cursor: pointer; background: fuchsia;}
+	
+	#submit2 {cursor: pointer; height: 35px; width: 690px; margin: 0px auto; margin-bottom: 10px; margin-top: 5px;}
+	#submit2:hover {cursor: pointer; background: red; color: #fff; border-color: #323232;}
+	
+	#submit3 {cursor: pointer; height: 35px; width: 690px; margin: 0px auto; margin-bottom: 10px; margin-top: 5px;}
+	#submit3:hover {cursor: pointer; background: green; color: #fff; border-color: #323232;}
+	
+	/*
+	.even { background-color: #abcdef; }
+	.uneven { background-color: fuchsia; }
+	*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

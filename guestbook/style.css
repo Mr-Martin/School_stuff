@@ -1,0 +1,81 @@
+body {
+	background: url(images/wood-bg.jpg);
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+#wrapper {
+	width: 1023px;
+	margin: 80px auto;
+	background: #fff url(images/leftcol.png) repeat-y;
+	border: 10px solid #000;
+	box-shadow: 0px 2px 10px #333;
+}
+#header {
+	text-align: center;
+	line-height: 100px;
+	background: #ffb700;
+	border-bottom: 10px solid #000;
+}
+#header h1 {
+	margin: 0;
+	padding: 0;
+	text-shadow: 0 1px 1px #fff;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	float: left;
+	border-bottom: 1px solid #000;
+}
+li a {
+	line-height: 40px;
+	width: 230px;
+	display: block;
+	background: #ffd27a;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+}
+li a:hover {
+	background: #ffb700;
+}
+#content {
+	margin-left: 260px;
+	margin-right: 30px;
+}
+#sidebar {
+	width: 230px;
+	float: left;
+}
+#sidebar img {
+	border: 5px solid #fff;
+	background: #fff;
+	box-shadow: 0 4px 4px #333;
+	margin: 20px 40px;
+}
+#footer {
+	background: #ffb700;
+	border-top: 10px solid #000;
+	line-height: 40px;
+	text-align: center;
+	font-size: small;
+	clear: left;
+}
+.right-img {
+	border: 10px solid #fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 8px #333;
+	float: right;
+	margin: 0 20px 20px;
+}
+.box { border: 10px solid #fff;
+	border-radius: 10px;
+	box-shadow: 0 2px 8px #333;
+	margin: 10px 50px;
+	 }

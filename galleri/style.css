@@ -1,0 +1,23 @@
+body, h1, h2, h3, input, form { font-family: Arial, verdana, sans-serif; font-sizE: 13px; }
+
+#choose_cat ul { margin: 0px auto; width: 272px; height: 16px; padding: 0px; }
+#choose_cat li { float: left; }
+#choose_cat a { margin-right: 15px; margin-left: 15px; }
+#choose_cat {
+	float: left;
+	margin: 15px auto;
+	width: 100%;
+	}
+
+#wrapper {
+	width: 980px;
+	margin: 0px auto;
+	overflow: auto;
+	}
+	
+#galleri a { float: left; margin-right: 20px; }
+#galleri {
+	width: 750px;
+	margin: 0px auto;
+	overflow: auto;
+	}
