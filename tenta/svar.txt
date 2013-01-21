@@ -1,0 +1,24 @@
+FRÅGA 3.
+Fel 1:	Filen är i ANSI as UTF-8 vilket ger den konstiga tecken på åäö. Den ska ändras till UTF-8.
+		Detta görs genom att välja "Convert to UTF-8" (i Notepadd++).
+
+Fel 2:	Formen använder sig utav metoden GET, detta ska/vill man inte göra när man hanterar
+		användarnamn och lösenord. Man ska använda sig utav POST.
+
+Fel 3:	Parametern $pass och $user hämtar värdena password och username från GET, detta är inte
+		alls något säkert, utan den ska använda POST.
+
+Fel 4:	Formens action är inte ifylld, detta funkar, man hamnar då på samma sida, men man vill
+		helst att man ska skickas till en annan sida som hanterar informationen.
+
+Fel 5:	mysqli_close är inget man behöver göra, bara onödig kod.
+
+________________________________________
+
+FRÅGA 4.
+Han måste ange:
+- A-post (IP-adress till surftown där Peters filer ligger)
+- NS-post (För att veta vilka namnservrar Peters filer ligger på)
+- CNAME-post (för att kunna skriva in kulpennan.se utan www, så krävs en CNAME-post)
+
+- Eventuellt en MX-post (om han vill/har mail som kommer köras)
